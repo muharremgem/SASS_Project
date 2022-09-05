@@ -9,5 +9,24 @@
 
     .about__bio-image{
         text-align: center;
+        h2{
+            font-size: 3rem;
+            color: $secondary-color;
+        }
+        p{
+            font-size: 1.2rem;
+            margin: 2rem;
+        }
+    }
+}
+
+.about{
+    &__container{
+        border: 2px solid red;
+        width: 70vw;
+        margin: 2rem auto;
+    }
+    .about__job{
+        margin: 1rem;
     }
 }
