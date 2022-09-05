@@ -20,27 +20,44 @@ Project aims to create SASS_Project within html and css.
 
 
 SASS_Project (folder)
+
+
 |----img
-|----readme.md                 
+
+|----readme.md      
+
 |----index.html  
-|----about.html 
+
+|----about.html
+
 |----contact.html
+
 |----projects.html 
+
 |----css
+
 	|---main.css
 	|---main.css.map
 	
+	
+	
 |----scss
+
 	|---main.scss
 	|---abstracts
+	
 		|--_mixins.scss
 		|--_variables.scss
+		
 	|---base
 		|--_reset.scss
+		
+		
 	|---components
 		|--_footer.scss
 		|--_nav.scss
 		|--_responsive.scss
+		
 	|---pages
        		|--_about.scss
 		|--_contacts.scss
