@@ -16,9 +16,6 @@
 }
 
 
-
-
-
 footer.horizontal{
     
     height: 10vh;
@@ -27,5 +24,32 @@ footer.horizontal{
     align-items: flex-end;
     padding: 1rem;
     @extend .link-style
+
+}
+
+
+footer.vertical{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    .social-icons{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 1rem;
+        @extend .link-style;
+
+    }
+
+    .copyright{
+        position: fixed;
+        bottom: 1rem;
+        right: 3rem;
+        transform: rotate(90deg) translate(-3rem, -5rem);
+
+    }
+
 
 }
