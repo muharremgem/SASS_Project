@@ -18,7 +18,6 @@ Project aims to create SASS_Project within html and css.
 
 ## Project Skeleton 
 
-
 SASS_Project (folder)
 
 
@@ -149,7 +148,6 @@ Functionally create a SASS_Project as in the image above
 - You can use HTML, CSS and Sass to complete this project.
 
 ## Resources
-
 
 
 <center> &#8987; Happy Coding  &#9997; </center>
